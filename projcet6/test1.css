@@ -1,0 +1,23 @@
+.parent{
+    background-color: teal;
+    display: grid;
+grid-template-columns: repeat(4 ,100px);
+grid-template-rows: repeat(3,minmax(100px ,auto));
+column-gap: 10px;
+row-gap: 10px;
+gap:10px 20px;
+
+
+}
+.child{
+background-color: tomato;
+border: 1px solid black;
+text-align: center;
+
+}
+p{
+    background-color: yellow;
+    border-radius: 25%;
+    width: 500px;
+    height: 200px;
+}
